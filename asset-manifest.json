@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/web_course_work/static/css/main.6d1077a2.css",
+    "main.js": "/web_course_work/static/js/main.38504fbb.js",
+    "static/media/logo.png": "/web_course_work/static/media/logo.9f309dc7c8f0c5f75504.png",
+    "static/media/news2.jpg": "/web_course_work/static/media/news2.b84e6b7e15a66902e62a.jpg",
+    "index.html": "/web_course_work/index.html",
+    "main.6d1077a2.css.map": "/web_course_work/static/css/main.6d1077a2.css.map",
+    "main.38504fbb.js.map": "/web_course_work/static/js/main.38504fbb.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6d1077a2.css",
+    "static/js/main.38504fbb.js"
+  ]
+}
