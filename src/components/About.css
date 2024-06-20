@@ -1,0 +1,33 @@
+.about-container {
+    background-color: hsl(162, 76%, 41%); /* Фоновий колір */
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    color: #333; /* Колір тексту */
+    font-family: Arial, sans-serif; /* Шрифт */
+    text-align: center;
+}
+
+.about-heading {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.about-text {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    max-width: 600px;
+    margin-bottom: 40px;
+}
+
+.about-image {
+    background-image: url('about.jpg'); /* Додано фонове зображення */
+    background-size: cover;
+    background-position: center;
+    width: 500px; /* Задаємо ширину для зображення */
+    height: 400px; /* Задаємо висоту для зображення */
+    margin-bottom: 20px;
+}

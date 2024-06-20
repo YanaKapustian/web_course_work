@@ -1,0 +1,46 @@
+.news-container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .news-item {
+    width: calc(50% - 20px); /* Щоб дві новини помістилися в один рядок */
+    margin-right: 20px;
+    margin-bottom: 20px;
+    background-color: #40c921;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    overflow: hidden;
+  }
+  
+  .news-item:last-child {
+    margin-right: 0;
+  }
+  
+  .news-image {
+    width: 100%;
+    height: 70%;
+    object-fit: cover; /* Збільшує або зменшує фото, щоб воно повністю заповнило елемент */
+    display: block;
+  }
+  
+  @media (max-width: 768px) { /* Застосовуємо тільки для екранів шириною до 768px (мобільні пристрої) */
+    .news-image {
+      height: 150px; /* Зменшуємо висоту фото для мобільних пристроїв */
+    }
+  }
+  
+  
+  .news-content {
+    padding: 20px;
+  }
+  
+  .news-content h3 {
+    margin-top: 0;
+    margin-bottom: 10px;
+  }
+  
+  .news-content p {
+    margin: 0;
+  }
+  

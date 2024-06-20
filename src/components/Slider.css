@@ -1,0 +1,25 @@
+.carousel-background {
+    height: 250px; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .carousel-caption {
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 50px;
+    border-radius: 10px;
+    color: #5c149f;
+  }
+  
+  .carousel-caption h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .carousel-caption p {
+    font-size: 16px;
+    margin: 0;
+  }
+  
