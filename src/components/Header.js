@@ -1,6 +1,7 @@
-import React from 'react';
-import './Header.css'; // підключаємо файл стилів
-import logo from './logo.png'; 
+import React from "react";
+import "./Header.css"; // підключаємо файл стилів
+import logo from "./logo.png";
+import { Link } from "react-router-dom";
 
 function Header() {
   return (
@@ -8,10 +9,18 @@ function Header() {
       <img src={logo} alt="Логотип" className="logo" />
       <nav>
         <ul className="nav-links">
-          <li><a href="/">Головна</a></li>
-          <li><a href="/about">Про сайт</a></li>
-          <li><a href="/gallery">Галерея</a></li>
-          <li><a href="/contacts">Контакти</a></li>
+          <li>
+            <Link to="/">Головна</Link>
+          </li>
+          <li>
+            <Link to="/about">Про сайт</Link>
+          </li>
+          <li>
+            <Link to="/gallery">Галерея</Link>
+          </li>
+          <li>
+            <Link to="/contacts">Контакти</Link>
+          </li>
         </ul>
       </nav>
     </header>

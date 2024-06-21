@@ -1,16 +1,17 @@
-import React from 'react';
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-import Home from './Home'; // Імпортуємо компонент Home
-import About from './About';
-import Gallery from './Gallery';
-import Contacts from './Contacts';
+import React from "react";
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import Home from "./Home"; // Імпортуємо компонент Home
+import About from "./About";
+import Gallery from "./Gallery";
+import Contacts from "./Contacts";
 
 function App() {
   return (
-    <Router>
+    <Router basename="/web_course_work">
       <div className="App">
         <Routes>
-          <Route path="/" element={<Home />} /> {/* Використовуємо Home як головну сторінку */}
+          <Route path="/" element={<Home />} />{" "}
+          {/* Використовуємо Home як головну сторінку */}
           <Route path="/about" element={<About />} />
           <Route path="/gallery" element={<Gallery />} />
           <Route path="/contacts" element={<Contacts />} />
